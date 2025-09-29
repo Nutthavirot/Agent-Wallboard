@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+
+# Electron build output
+dist/
+distribution/
+out/
+release/
+win-unpacked/
+linux-unpacked/
+mac/
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.snap
+*.msi
+*.blockmap
+latest*.yml
+builder-debug.yml
+builder-effective-config.yaml
+
+# Coverage / testing
+coverage/
+*.map
+
+# Env (ความลับ เช่น token)
+.env
+.env.*
+!.env.example
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
